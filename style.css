@@ -1,0 +1,23 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #9D7DB7;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pfp
+{    
+    border-radius: 20vw;
+    border: 5px solid #714890;
+}
+
+p
+{
+    color: white;
+    
+}
