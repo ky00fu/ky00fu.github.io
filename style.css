@@ -1,13 +1,14 @@
 *
 {
-    margin: 0;
+    margin: 5vh;
     padding: 0;
+    box-sizing: border-box;    
 }
 
 body
 {
     background: #9D7DB7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lalezar', cursive;    
 }
 
 #pfp
@@ -16,8 +17,22 @@ body
     border: 5px solid #714890;
 }
 
-p
+.head-container 
 {
+    display: flex;
+}
+
+.head-container p
+{
+    flex-direction: column;
     color: white;
-    
+    padding: 95px 0;
+    font-size: 30px;
+}
+
+p
+
+.head-container #container
+{
+
 }
