@@ -11,7 +11,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10vw;
+    margin-top: 200px;
 }
 
 #pfp
@@ -24,11 +24,17 @@ body
 
 #intro
 {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#socials > img
+#intro > h1
+{
+    margin: 20px;
+}
+
+/* #socials > img
 {
     width: 35px;
     margin-bottom: 20px;
@@ -38,7 +44,7 @@ body
 #socials > img:hover
 {
     cursor: pointer;
-}
+} */
 
 #logo
 {
@@ -68,5 +74,5 @@ ul
 li:hover
 {
     color: gray;
-   cursor: pointer;
+    cursor: pointer;
 }
