@@ -80,7 +80,7 @@ li:hover
     cursor: pointer;
 }
 
-#social-links
+/* #social-links
 {
     display: none;
 }
@@ -88,4 +88,4 @@ li:hover
 #links-checkbox:checked ~ #social-links
 {
     margin-top: 10px;
-}
+} */
