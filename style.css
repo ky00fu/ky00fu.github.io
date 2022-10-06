@@ -15,14 +15,14 @@ body
     font-size: 16px;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 
 #pfp
 {
     border-radius: 100px;
-    border: 5px solid rgba(0, 0, 0, 0.75);
+    border: 5px solid rgba(0, 0, 0, 0.70);
     width: 200px;
     margin: 30px;
 }
@@ -59,8 +59,8 @@ nav
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 50px 90px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 70px;
     border-radius: 100px;
 }
 
@@ -68,15 +68,24 @@ ul > li
 {
     list-style: none;
     justify-content: space-around;
-    margin: 15px;
+    line-height: 35px;
+    /* this is what makes it so the padding doesn't move either */
 }
 
 li:hover
 {
     list-style-image: url(assets/pointer.gif);
+    list-style-position: inside;
+    /* this is what makes the pointer closer to the list items */
     transition-duration: 95ms;
     align-items: center;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+}
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
 }
