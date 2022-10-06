@@ -95,14 +95,6 @@ nav ul li ul
     line-height: 15px;
 }
 
-/* nav ul li ul img
-{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    float: left;
-    justify-content: space-between;
-} */
 
 nav ul li:hover ul
 {
